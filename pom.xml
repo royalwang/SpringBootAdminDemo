@@ -8,5 +8,12 @@
     <artifactId>spring-boot-admin-maven-all</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>eureka-server</module>
+        <module>spring-boot-admin-server</module>
+        <module>spring-boot-admin-client</module>
+    </modules>
 
 </project>
